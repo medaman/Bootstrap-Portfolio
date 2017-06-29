@@ -180,15 +180,13 @@ PORTFOLIO - CSS
 ***************************************************************/
 
 .project {
-	width:45%;
-	float:left;
-	margin:0px 5% 20px 0px;
+	margin:0px 0px 20px 0px;
 	position:relative;
+	display:block;
 }
 
 .project > img {
 	width:100%;
-	display: block;
 	opacity: .9;
 }
 
@@ -201,7 +199,7 @@ PORTFOLIO - CSS
 	background-color: #4aa8a2;
 	font-size: 18px;
 	color:#eee;
-	font-weight: bold
+	font-weight: bold;
 }
 
 .project img:hover {
