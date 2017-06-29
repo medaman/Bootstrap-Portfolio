@@ -6,28 +6,27 @@ MAIN - CSS
 	box-sizing: border-box;
 }
 
-header{
-	border-bottom: 1px solid #aaa;
-	border-top: 1px solid #aaa;
-	position:fixed;
-	top:0;
-	left:0;
-	width: 100%;
+nav {
+	margin-bottom:0px !important;
+}
+
+.navbar-default {
 	background:white;
+	border:0px;
 }
 
 h1, h2{
-	font-size:30px;
 	font-family: Georgia;
 	font-weight: bold;
 }
 
 h1 {
 	color:#fff;
-	margin-left:20%;
-	padding:20px 20px;
-	float:left;
 	background:#4aa8a2;
+	float:left;
+	margin:0px;
+	padding:5px 20px;
+	text-align:center;
 }
 
 h2 {
@@ -45,36 +44,6 @@ h3 {
 	margin-bottom:20px;
 	border-bottom: 1px solid #ddd;
 	color:#38857f;
-}
-
-li {
-	display:inline;
-	padding: 0px 5px;
-	border-right:1px solid #ddd;
-}
-
-li:last-child {
-	border-right:0px;
-}
-
-nav {
-	margin-right: 20%;
-	padding-top: 25px;
-	float:right;
-	color:#ddd;
-}
-
-nav > ul > li > a{
-	color:#777;
-	text-decoration: none;
-	padding:5px;
-	font-size:17px;
-}
-
-nav > ul > li > a:hover {
-	border-radius: 5px;
-	color: #fff;
-	background-color: #4aa8a2;
 }
 
 #mainBody {
